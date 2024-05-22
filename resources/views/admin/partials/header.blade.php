@@ -2,7 +2,10 @@
 
     <nav class="navbar bg-body-tertiary">
         <div class="container-fluid">
-          <a href="{{ route('home') }}" target="_blank" class="navbar-brand">Visita il sito</a>
+          <a href="{{ route('home') }}" target="_blank" class="navbar-brand">
+            <i class="fa-solid fa-house"></i>
+            <span>Vai al sito</span>
+          </a>
           <div class="d-flex align-items-center">
               <form class="d-flex me-3" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
