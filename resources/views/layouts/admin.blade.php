@@ -19,7 +19,7 @@
 
         @include('admin.partials.aside')
 
-        <div class="content p-5">
+        <div class="content p-5 w-100 overflow-y-scroll">
             @yield('content')
         </div>
     </div>

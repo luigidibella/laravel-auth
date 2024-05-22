@@ -1,8 +1,8 @@
-<aside class="bg-dark navbar-dark text-white">
+<aside class="bg-dark navbar-dark text-white pt-3">
     <nav>
         <ul>
             <li>
-                <a href="#">
+                <a href="{{ route('admin.projects.index') }}">
                     <i class="fa-regular fa-folder-closed"></i></i>
                     <span>Lista Progetti</span>
                 </a>

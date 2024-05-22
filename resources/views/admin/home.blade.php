@@ -2,6 +2,6 @@
 
 @section('content')
 
-<h1>Home della dashboard</h1>
+<h1 class="text-white">Home della dashboard</h1>
 
 @endsection

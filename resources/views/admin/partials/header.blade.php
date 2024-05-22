@@ -1,6 +1,6 @@
 <header>
 
-    <nav class="navbar bg-body-tertiary">
+    <nav class="navbar bg-success-subtle">
         <div class="container-fluid">
           <a href="{{ route('home') }}" target="_blank" class="navbar-brand">
             <i class="fa-solid fa-house"></i>

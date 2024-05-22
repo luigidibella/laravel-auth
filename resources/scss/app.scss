@@ -6,11 +6,12 @@ header{
 
 .main-wrapper{
     height: calc(100vh - 72px);
-    background-color: brown;
+    background-color: #04635c;
 }
 
 aside{
     width: 190px;
+    flex-shrink: 0;
     ul{
         list-style: none;
         padding-left: 15px;
@@ -26,3 +27,7 @@ aside{
         }
     }
 }
+
+/* .crud-table{
+
+} */
