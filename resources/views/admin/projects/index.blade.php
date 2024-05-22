@@ -20,8 +20,8 @@
               <td>{{ $item->text }}</td>
               <td>
                 <div class="d-flex">
-                    <button class="btn btn-warning me-2"><i class="fa-regular fa-pen-to-square"></i></button>
-                    <button class="btn btn-danger"><i class="fa-regular fa-trash-can"></i></button>
+                    <a href="{{ route('admin.projects.edit', $item->id) }}" class="btn btn-warning me-2"><i class="fa-regular fa-pen-to-square"></i></a>
+                    <a href="{{ route('admin.projects.edit', $item->id) }}" class="btn btn-danger"><i class="fa-regular fa-trash-can"></i></a>
                 </div>
               </td>
             </tr>
