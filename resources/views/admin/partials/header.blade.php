@@ -3,7 +3,7 @@
     <nav class="navbar bg-success-subtle">
         <div class="container-fluid">
           <a href="{{ route('home') }}" target="_blank" class="navbar-brand">
-            <i class="fa-solid fa-house"></i>
+            <i class="fa-solid fa-globe"></i>
             <span>Vai al sito</span>
           </a>
           <div class="d-flex align-items-center">
