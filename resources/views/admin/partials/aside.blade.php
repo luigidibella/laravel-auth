@@ -14,7 +14,7 @@
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="{{ route('admin.projects.create') }}">
                     <i class="fa-regular fa-square-plus"></i>
                     <span>Nuovo Progetto</span>
                 </a>

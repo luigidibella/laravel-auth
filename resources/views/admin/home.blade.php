@@ -7,7 +7,7 @@
 <h2>Sono presenti <span class="text-white">{{ $count_projects}}</span> progetti.</h2>
 
 <h2>Ultimo progetto:</h2>
-<div class="bg-white p-2 rounded-3">
+<div class="p-2 rounded-3 bg-success-subtle">
     <h3>{{ $last_project->title }}</h3>
     <p>{{ $last_project->text }}</p>
 </div>
