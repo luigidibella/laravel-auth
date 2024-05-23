@@ -1,7 +1,7 @@
 @extends('layouts.admin')
 
 @section('content')
-    <h2 class="text text-white">Elenco Progetti</h2>
+    <h2 class="text-white">Elenco Progetti</h2>
 
     @if (session('deleted'))
 

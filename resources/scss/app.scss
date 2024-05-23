@@ -32,9 +32,10 @@ aside{
     }
 }
 
-/* .crud-table{
-    td:last-child{
-        flex-shrink: 0;
-        background-color: red;
+.crud-table{
+    input{
+        border: none;
+        outline: none;
+        background-color: #d1e7dd;
     }
-} */
+}
